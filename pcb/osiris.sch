@@ -1,0 +1,3228 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 12705 2970 2    46   Input ~ 0
+row0
+Text GLabel 12705 2770 2    46   Input ~ 0
+row1
+Text GLabel 12705 3070 2    46   Input ~ 0
+row2
+Text GLabel 11305 3070 0    46   Input ~ 0
+row3
+Text GLabel 11305 2670 0    46   Input ~ 0
+row4
+Text GLabel 12705 3170 2    46   Input ~ 0
+row7
+Text GLabel 11305 2270 0    46   Input ~ 0
+row8
+Text GLabel 11305 2570 0    50   Input ~ 0
+col0
+Text GLabel 11305 2770 0    50   Input ~ 0
+col1
+Text GLabel 11305 2870 0    50   Input ~ 0
+col2
+Text GLabel 12705 2870 2    50   Input ~ 0
+col4
+Text GLabel 11305 3170 0    50   Input ~ 0
+col5
+Text GLabel 11305 3270 0    50   Input ~ 0
+col6
+Text GLabel 12705 3270 2    50   Input ~ 0
+col7
+Text GLabel 900  1400 0    50   Input ~ 0
+row0
+Wire Wire Line
+	900  1400 1150 1400
+Text GLabel 1800 650  0    50   Input ~ 0
+col0
+Wire Wire Line
+	1800 650  1800 1000
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_OPEN1
+U 1 1 00000001
+P 1500 1000
+F 0 "K_OPEN1" H 1500 1233 60  0000 C CNN
+F 1 "KEYSW" H 1500 900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 1500 1000 60  0001 C CNN
+F 3 "" H 1500 1000 60  0000 C CNN
+	1    1500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_OPEN1
+U 1 1 00000000
+P 1150 1250
+F 0 "D_OPEN1" V 1196 1171 50  0000 R CNN
+F 1 "D" V 1095 1171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1150 1250 50  0001 C CNN
+F 3 "~" H 1150 1250 50  0001 C CNN
+	1    1150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1200 1000 1150 1000
+Wire Wire Line
+	1150 1000 1150 1100
+Connection ~ 1800 1000
+Connection ~ 1150 1400
+Text GLabel 2800 650  0    50   Input ~ 0
+col1
+Wire Wire Line
+	2800 650  2800 1000
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_ESC1
+U 1 1 00000021
+P 2500 1000
+F 0 "K_ESC1" H 2500 1233 60  0000 C CNN
+F 1 "KEYSW" H 2500 900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 2500 1000 60  0001 C CNN
+F 3 "" H 2500 1000 60  0000 C CNN
+	1    2500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_ESC1
+U 1 1 00000020
+P 2150 1250
+F 0 "D_ESC1" V 2196 1171 50  0000 R CNN
+F 1 "D" V 2095 1171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2150 1250 50  0001 C CNN
+F 3 "~" H 2150 1250 50  0001 C CNN
+	1    2150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 1000 2150 1000
+Wire Wire Line
+	2150 1000 2150 1100
+Connection ~ 2800 1000
+Connection ~ 2150 1400
+Text GLabel 3800 650  0    50   Input ~ 0
+col2
+Wire Wire Line
+	3800 650  3800 1000
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_2
+U 1 1 00000041
+P 3500 1000
+F 0 "K_2" H 3500 1233 60  0000 C CNN
+F 1 "KEYSW" H 3500 900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 3500 1000 60  0001 C CNN
+F 3 "" H 3500 1000 60  0000 C CNN
+	1    3500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_2
+U 1 1 00000040
+P 3150 1250
+F 0 "D_2" V 3196 1171 50  0000 R CNN
+F 1 "D" V 3095 1171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3150 1250 50  0001 C CNN
+F 3 "~" H 3150 1250 50  0001 C CNN
+	1    3150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 1000 3150 1000
+Wire Wire Line
+	3150 1000 3150 1100
+Connection ~ 3800 1000
+Connection ~ 3150 1400
+Text GLabel 4800 650  0    50   Input ~ 0
+col3
+Wire Wire Line
+	4800 650  4800 1000
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_4
+U 1 1 00000061
+P 4500 1000
+F 0 "K_4" H 4500 1233 60  0000 C CNN
+F 1 "KEYSW" H 4500 900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 4500 1000 60  0001 C CNN
+F 3 "" H 4500 1000 60  0000 C CNN
+	1    4500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_4
+U 1 1 00000060
+P 4150 1250
+F 0 "D_4" V 4196 1171 50  0000 R CNN
+F 1 "D" V 4095 1171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4150 1250 50  0001 C CNN
+F 3 "~" H 4150 1250 50  0001 C CNN
+	1    4150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 1000 4150 1000
+Wire Wire Line
+	4150 1000 4150 1100
+Connection ~ 4800 1000
+Connection ~ 4150 1400
+Text GLabel 5800 650  0    50   Input ~ 0
+col4
+Wire Wire Line
+	5800 650  5800 1000
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_6
+U 1 1 00000081
+P 5500 1000
+F 0 "K_6" H 5500 1233 60  0000 C CNN
+F 1 "KEYSW" H 5500 900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 5500 1000 60  0001 C CNN
+F 3 "" H 5500 1000 60  0000 C CNN
+	1    5500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_6
+U 1 1 00000080
+P 5150 1250
+F 0 "D_6" V 5196 1171 50  0000 R CNN
+F 1 "D" V 5095 1171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5150 1250 50  0001 C CNN
+F 3 "~" H 5150 1250 50  0001 C CNN
+	1    5150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 1000 5150 1000
+Wire Wire Line
+	5150 1000 5150 1100
+Connection ~ 5800 1000
+Connection ~ 5150 1400
+Text GLabel 6800 650  0    50   Input ~ 0
+col5
+Wire Wire Line
+	6800 650  6800 1000
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_8
+U 1 1 000000A1
+P 6500 1000
+F 0 "K_8" H 6500 1233 60  0000 C CNN
+F 1 "KEYSW" H 6500 900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 6500 1000 60  0001 C CNN
+F 3 "" H 6500 1000 60  0000 C CNN
+	1    6500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_8
+U 1 1 000000A0
+P 6150 1250
+F 0 "D_8" V 6196 1171 50  0000 R CNN
+F 1 "D" V 6095 1171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6150 1250 50  0001 C CNN
+F 3 "~" H 6150 1250 50  0001 C CNN
+	1    6150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 1000 6150 1000
+Wire Wire Line
+	6150 1000 6150 1100
+Connection ~ 6800 1000
+Connection ~ 6150 1400
+Text GLabel 7800 650  0    50   Input ~ 0
+col6
+Wire Wire Line
+	7800 650  7800 1000
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_MINUS1
+U 1 1 000000D1
+P 7500 1000
+F 0 "K_MINUS1" H 7500 1233 60  0000 C CNN
+F 1 "KEYSW" H 7500 900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 7500 1000 60  0001 C CNN
+F 3 "" H 7500 1000 60  0000 C CNN
+	1    7500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_MINUS1
+U 1 1 000000D0
+P 7150 1250
+F 0 "D_MINUS1" V 7196 1171 50  0000 R CNN
+F 1 "D" V 7095 1171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7150 1250 50  0001 C CNN
+F 3 "~" H 7150 1250 50  0001 C CNN
+	1    7150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 1000 7150 1000
+Wire Wire Line
+	7150 1000 7150 1100
+Connection ~ 7800 1000
+Connection ~ 7150 1400
+Text GLabel 8800 650  0    50   Input ~ 0
+col7
+Wire Wire Line
+	8800 650  8800 1000
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_BACKSPACE1
+U 1 1 000000F1
+P 8500 1000
+F 0 "K_BACKSPACE1" H 8500 1233 60  0000 C CNN
+F 1 "KEYSW" H 8500 900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-2U-Hotswap" H 8500 1000 60  0001 C CNN
+F 3 "" H 8500 1000 60  0000 C CNN
+	1    8500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_BACKSPACE1
+U 1 1 000000F0
+P 8150 1250
+F 0 "D_BACKSPACE1" V 8196 1171 50  0000 R CNN
+F 1 "D" V 8095 1171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8150 1250 50  0001 C CNN
+F 3 "~" H 8150 1250 50  0001 C CNN
+	1    8150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 1000 8150 1000
+Wire Wire Line
+	8150 1000 8150 1100
+Connection ~ 8800 1000
+Wire Wire Line
+	1150 1400 2150 1400
+Text GLabel 900  2400 0    50   Input ~ 0
+row1
+Wire Wire Line
+	900  2400 1150 2400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_NEW1
+U 1 1 00000121
+P 1500 2000
+F 0 "K_NEW1" H 1500 2233 60  0000 C CNN
+F 1 "KEYSW" H 1500 1900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 1500 2000 60  0001 C CNN
+F 3 "" H 1500 2000 60  0000 C CNN
+	1    1500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_NEW1
+U 1 1 00000120
+P 1150 2250
+F 0 "D_NEW1" V 1196 2171 50  0000 R CNN
+F 1 "D" V 1095 2171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1150 2250 50  0001 C CNN
+F 3 "~" H 1150 2250 50  0001 C CNN
+	1    1150 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1200 2000 1150 2000
+Wire Wire Line
+	1150 2000 1150 2100
+Connection ~ 1800 2000
+Connection ~ 1150 2400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_TAB1
+U 1 1 00000141
+P 2500 2000
+F 0 "K_TAB1" H 2500 2233 60  0000 C CNN
+F 1 "KEYSW" H 2500 1900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1.5U-Hotswap" H 2500 2000 60  0001 C CNN
+F 3 "" H 2500 2000 60  0000 C CNN
+	1    2500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_TAB1
+U 1 1 00000140
+P 2150 2250
+F 0 "D_TAB1" V 2196 2171 50  0000 R CNN
+F 1 "D" V 2095 2171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2150 2250 50  0001 C CNN
+F 3 "~" H 2150 2250 50  0001 C CNN
+	1    2150 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 2000 2150 2000
+Wire Wire Line
+	2150 2000 2150 2100
+Connection ~ 2800 2000
+Connection ~ 2150 2400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_W1
+U 1 1 00000161
+P 3500 2000
+F 0 "K_W1" H 3500 2233 60  0000 C CNN
+F 1 "KEYSW" H 3500 1900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 3500 2000 60  0001 C CNN
+F 3 "" H 3500 2000 60  0000 C CNN
+	1    3500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_W1
+U 1 1 00000160
+P 3150 2250
+F 0 "D_W1" V 3196 2171 50  0000 R CNN
+F 1 "D" V 3095 2171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3150 2250 50  0001 C CNN
+F 3 "~" H 3150 2250 50  0001 C CNN
+	1    3150 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 2000 3150 2000
+Wire Wire Line
+	3150 2000 3150 2100
+Connection ~ 3800 2000
+Connection ~ 3150 2400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_R1
+U 1 1 00000181
+P 4500 2000
+F 0 "K_R1" H 4500 2233 60  0000 C CNN
+F 1 "KEYSW" H 4500 1900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 4500 2000 60  0001 C CNN
+F 3 "" H 4500 2000 60  0000 C CNN
+	1    4500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_R1
+U 1 1 00000180
+P 4150 2250
+F 0 "D_R1" V 4196 2171 50  0000 R CNN
+F 1 "D" V 4095 2171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4150 2250 50  0001 C CNN
+F 3 "~" H 4150 2250 50  0001 C CNN
+	1    4150 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 2000 4150 2000
+Wire Wire Line
+	4150 2000 4150 2100
+Connection ~ 4800 2000
+Connection ~ 4150 2400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_Y1
+U 1 1 000001A1
+P 5500 2000
+F 0 "K_Y1" H 5500 2233 60  0000 C CNN
+F 1 "KEYSW" H 5500 1900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 5500 2000 60  0001 C CNN
+F 3 "" H 5500 2000 60  0000 C CNN
+	1    5500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_Y1
+U 1 1 000001A0
+P 5150 2250
+F 0 "D_Y1" V 5196 2171 50  0000 R CNN
+F 1 "D" V 5095 2171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5150 2250 50  0001 C CNN
+F 3 "~" H 5150 2250 50  0001 C CNN
+	1    5150 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 2000 5150 2000
+Wire Wire Line
+	5150 2000 5150 2100
+Connection ~ 5800 2000
+Connection ~ 5150 2400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_9
+U 1 1 000000B1
+P 6500 2000
+F 0 "K_9" H 6500 2233 60  0000 C CNN
+F 1 "KEYSW" H 6500 1900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 6500 2000 60  0001 C CNN
+F 3 "" H 6500 2000 60  0000 C CNN
+	1    6500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_9
+U 1 1 000000B0
+P 6150 2250
+F 0 "D_9" V 6196 2171 50  0000 R CNN
+F 1 "D" V 6095 2171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6150 2250 50  0001 C CNN
+F 3 "~" H 6150 2250 50  0001 C CNN
+	1    6150 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 2000 6150 2000
+Wire Wire Line
+	6150 2000 6150 2100
+Connection ~ 6800 2000
+Connection ~ 6150 2400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_CBRAC1
+U 1 1 000001F1
+P 7500 2000
+F 0 "K_CBRAC1" H 7500 2233 60  0000 C CNN
+F 1 "KEYSW" H 7500 1900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 7500 2000 60  0001 C CNN
+F 3 "" H 7500 2000 60  0000 C CNN
+	1    7500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_CBRAC1
+U 1 1 000001F0
+P 7150 2250
+F 0 "D_CBRAC1" V 7196 2171 50  0000 R CNN
+F 1 "D" V 7095 2171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7150 2250 50  0001 C CNN
+F 3 "~" H 7150 2250 50  0001 C CNN
+	1    7150 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 2000 7150 2000
+Wire Wire Line
+	7150 2000 7150 2100
+Connection ~ 7800 2000
+Connection ~ 7150 2400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_PAGE2
+U 1 1 00000101
+P 8500 2000
+F 0 "K_PAGE2" H 8500 2233 60  0000 C CNN
+F 1 "KEYSW" H 8500 1900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 8500 2000 60  0001 C CNN
+F 3 "" H 8500 2000 60  0000 C CNN
+	1    8500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_PAGE2
+U 1 1 00000100
+P 8150 2250
+F 0 "D_PAGE2" V 8196 2171 50  0000 R CNN
+F 1 "D" V 8095 2171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8150 2250 50  0001 C CNN
+F 3 "~" H 8150 2250 50  0001 C CNN
+	1    8150 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 2000 8150 2000
+Wire Wire Line
+	8150 2000 8150 2100
+Connection ~ 8800 2000
+Wire Wire Line
+	1150 2400 2150 2400
+Text GLabel 900  3400 0    50   Input ~ 0
+row2
+Wire Wire Line
+	900  3400 1150 3400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_CLOSE1
+U 1 1 00000241
+P 1500 3000
+F 0 "K_CLOSE1" H 1500 3233 60  0000 C CNN
+F 1 "KEYSW" H 1500 2900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 1500 3000 60  0001 C CNN
+F 3 "" H 1500 3000 60  0000 C CNN
+	1    1500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_CLOSE1
+U 1 1 00000240
+P 1150 3250
+F 0 "D_CLOSE1" V 1196 3171 50  0000 R CNN
+F 1 "D" V 1095 3171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1150 3250 50  0001 C CNN
+F 3 "~" H 1150 3250 50  0001 C CNN
+	1    1150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1200 3000 1150 3000
+Wire Wire Line
+	1150 3000 1150 3100
+Connection ~ 1800 3000
+Connection ~ 1150 3400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_CAPS1
+U 1 1 00000261
+P 2500 3000
+F 0 "K_CAPS1" H 2500 3233 60  0000 C CNN
+F 1 "KEYSW" H 2500 2900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1.75U-Hotswap" H 2500 3000 60  0001 C CNN
+F 3 "" H 2500 3000 60  0000 C CNN
+	1    2500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_CAPS1
+U 1 1 00000260
+P 2150 3250
+F 0 "D_CAPS1" V 2196 3171 50  0000 R CNN
+F 1 "D" V 2095 3171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2150 3250 50  0001 C CNN
+F 3 "~" H 2150 3250 50  0001 C CNN
+	1    2150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 3000 2150 3000
+Wire Wire Line
+	2150 3000 2150 3100
+Connection ~ 2800 3000
+Connection ~ 2150 3400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_S1
+U 1 1 00000281
+P 3500 3000
+F 0 "K_S1" H 3500 3233 60  0000 C CNN
+F 1 "KEYSW" H 3500 2900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 3500 3000 60  0001 C CNN
+F 3 "" H 3500 3000 60  0000 C CNN
+	1    3500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_S1
+U 1 1 00000280
+P 3150 3250
+F 0 "D_S1" V 3196 3171 50  0000 R CNN
+F 1 "D" V 3095 3171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3150 3250 50  0001 C CNN
+F 3 "~" H 3150 3250 50  0001 C CNN
+	1    3150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 3000 3150 3000
+Wire Wire Line
+	3150 3000 3150 3100
+Connection ~ 3800 3000
+Connection ~ 3150 3400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_F1
+U 1 1 000002A1
+P 4500 3000
+F 0 "K_F1" H 4500 3233 60  0000 C CNN
+F 1 "KEYSW" H 4500 2900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 4500 3000 60  0001 C CNN
+F 3 "" H 4500 3000 60  0000 C CNN
+	1    4500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_F1
+U 1 1 000002A0
+P 4150 3250
+F 0 "D_F1" V 4196 3171 50  0000 R CNN
+F 1 "D" V 4095 3171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4150 3250 50  0001 C CNN
+F 3 "~" H 4150 3250 50  0001 C CNN
+	1    4150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 3000 4150 3000
+Wire Wire Line
+	4150 3000 4150 3100
+Connection ~ 4800 3000
+Connection ~ 4150 3400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_U1
+U 1 1 000001B1
+P 5500 3000
+F 0 "K_U1" H 5500 3233 60  0000 C CNN
+F 1 "KEYSW" H 5500 2900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 5500 3000 60  0001 C CNN
+F 3 "" H 5500 3000 60  0000 C CNN
+	1    5500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_U1
+U 1 1 000001B0
+P 5150 3250
+F 0 "D_U1" V 5196 3171 50  0000 R CNN
+F 1 "D" V 5095 3171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5150 3250 50  0001 C CNN
+F 3 "~" H 5150 3250 50  0001 C CNN
+	1    5150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 3000 5150 3000
+Wire Wire Line
+	5150 3000 5150 3100
+Connection ~ 5800 3000
+Connection ~ 5150 3400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_O1
+U 1 1 000001D1
+P 6500 3000
+F 0 "K_O1" H 6500 3233 60  0000 C CNN
+F 1 "KEYSW" H 6500 2900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 6500 3000 60  0001 C CNN
+F 3 "" H 6500 3000 60  0000 C CNN
+	1    6500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_O1
+U 1 1 000001D0
+P 6150 3250
+F 0 "D_O1" V 6196 3171 50  0000 R CNN
+F 1 "D" V 6095 3171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6150 3250 50  0001 C CNN
+F 3 "~" H 6150 3250 50  0001 C CNN
+	1    6150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 3000 6150 3000
+Wire Wire Line
+	6150 3000 6150 3100
+Connection ~ 6800 3000
+Connection ~ 6150 3400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_QUOTE1
+U 1 1 00000311
+P 7500 3000
+F 0 "K_QUOTE1" H 7500 3233 60  0000 C CNN
+F 1 "KEYSW" H 7500 2900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 7500 3000 60  0001 C CNN
+F 3 "" H 7500 3000 60  0000 C CNN
+	1    7500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_QUOTE1
+U 1 1 00000310
+P 7150 3250
+F 0 "D_QUOTE1" V 7196 3171 50  0000 R CNN
+F 1 "D" V 7095 3171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7150 3250 50  0001 C CNN
+F 3 "~" H 7150 3250 50  0001 C CNN
+	1    7150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 3000 7150 3000
+Wire Wire Line
+	7150 3000 7150 3100
+Connection ~ 7800 3000
+Connection ~ 7150 3400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_PAGE1
+U 1 1 00000221
+P 8500 3000
+F 0 "K_PAGE1" H 8500 3233 60  0000 C CNN
+F 1 "KEYSW" H 8500 2900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 8500 3000 60  0001 C CNN
+F 3 "" H 8500 3000 60  0000 C CNN
+	1    8500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_PAGE1
+U 1 1 00000220
+P 8150 3250
+F 0 "D_PAGE1" V 8196 3171 50  0000 R CNN
+F 1 "D" V 8095 3171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8150 3250 50  0001 C CNN
+F 3 "~" H 8150 3250 50  0001 C CNN
+	1    8150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 3000 8150 3000
+Wire Wire Line
+	8150 3000 8150 3100
+Connection ~ 8800 3000
+Wire Wire Line
+	1150 3400 2150 3400
+Text GLabel 900  4400 0    50   Input ~ 0
+row3
+Wire Wire Line
+	900  4400 1150 4400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_SAVE1
+U 1 1 00000331
+P 1500 4000
+F 0 "K_SAVE1" H 1500 4233 60  0000 C CNN
+F 1 "KEYSW" H 1500 3900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 1500 4000 60  0001 C CNN
+F 3 "" H 1500 4000 60  0000 C CNN
+	1    1500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_SAVE1
+U 1 1 00000330
+P 1150 4250
+F 0 "D_SAVE1" V 1196 4171 50  0000 R CNN
+F 1 "D" V 1095 4171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1150 4250 50  0001 C CNN
+F 3 "~" H 1150 4250 50  0001 C CNN
+	1    1150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1200 4000 1150 4000
+Wire Wire Line
+	1150 4000 1150 4100
+Connection ~ 1800 4000
+Connection ~ 1150 4400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_SHIFT2
+U 1 1 00000351
+P 2500 4000
+F 0 "K_SHIFT2" H 2500 4233 60  0000 C CNN
+F 1 "KEYSW" H 2500 3900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-2.25U-Hotswap" H 2500 4000 60  0001 C CNN
+F 3 "" H 2500 4000 60  0000 C CNN
+	1    2500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_SHIFT2
+U 1 1 00000350
+P 2150 4250
+F 0 "D_SHIFT2" V 2196 4171 50  0000 R CNN
+F 1 "D" V 2095 4171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2150 4250 50  0001 C CNN
+F 3 "~" H 2150 4250 50  0001 C CNN
+	1    2150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 4000 2150 4000
+Wire Wire Line
+	2150 4000 2150 4100
+Connection ~ 2800 4000
+Connection ~ 2150 4400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_X1
+U 1 1 00000371
+P 3500 4000
+F 0 "K_X1" H 3500 4233 60  0000 C CNN
+F 1 "KEYSW" H 3500 3900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 3500 4000 60  0001 C CNN
+F 3 "" H 3500 4000 60  0000 C CNN
+	1    3500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_X1
+U 1 1 00000370
+P 3150 4250
+F 0 "D_X1" V 3196 4171 50  0000 R CNN
+F 1 "D" V 3095 4171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3150 4250 50  0001 C CNN
+F 3 "~" H 3150 4250 50  0001 C CNN
+	1    3150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 4000 3150 4000
+Wire Wire Line
+	3150 4000 3150 4100
+Connection ~ 3800 4000
+Connection ~ 3150 4400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_V1
+U 1 1 00000391
+P 4500 4000
+F 0 "K_V1" H 4500 4233 60  0000 C CNN
+F 1 "KEYSW" H 4500 3900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 4500 4000 60  0001 C CNN
+F 3 "" H 4500 4000 60  0000 C CNN
+	1    4500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_V1
+U 1 1 00000390
+P 4150 4250
+F 0 "D_V1" V 4196 4171 50  0000 R CNN
+F 1 "D" V 4095 4171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4150 4250 50  0001 C CNN
+F 3 "~" H 4150 4250 50  0001 C CNN
+	1    4150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 4000 4150 4000
+Wire Wire Line
+	4150 4000 4150 4100
+Connection ~ 4800 4000
+Connection ~ 4150 4400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_H1
+U 1 1 000002C1
+P 5500 4000
+F 0 "K_H1" H 5500 4233 60  0000 C CNN
+F 1 "KEYSW" H 5500 3900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 5500 4000 60  0001 C CNN
+F 3 "" H 5500 4000 60  0000 C CNN
+	1    5500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_H1
+U 1 1 000002C0
+P 5150 4250
+F 0 "D_H1" V 5196 4171 50  0000 R CNN
+F 1 "D" V 5095 4171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5150 4250 50  0001 C CNN
+F 3 "~" H 5150 4250 50  0001 C CNN
+	1    5150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 4000 5150 4000
+Wire Wire Line
+	5150 4000 5150 4100
+Connection ~ 5800 4000
+Connection ~ 5150 4400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_L1
+U 1 1 000002F1
+P 6500 4000
+F 0 "K_L1" H 6500 4233 60  0000 C CNN
+F 1 "KEYSW" H 6500 3900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 6500 4000 60  0001 C CNN
+F 3 "" H 6500 4000 60  0000 C CNN
+	1    6500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_L1
+U 1 1 000002F0
+P 6150 4250
+F 0 "D_L1" V 6196 4171 50  0000 R CNN
+F 1 "D" V 6095 4171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6150 4250 50  0001 C CNN
+F 3 "~" H 6150 4250 50  0001 C CNN
+	1    6150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 4000 6150 4000
+Wire Wire Line
+	6150 4000 6150 4100
+Connection ~ 6800 4000
+Connection ~ 6150 4400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_SLASH1
+U 1 1 000003F1
+P 7500 4000
+F 0 "K_SLASH1" H 7500 4233 60  0000 C CNN
+F 1 "KEYSW" H 7500 3900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 7500 4000 60  0001 C CNN
+F 3 "" H 7500 4000 60  0000 C CNN
+	1    7500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_SLASH1
+U 1 1 000003F0
+P 7150 4250
+F 0 "D_SLASH1" V 7196 4171 50  0000 R CNN
+F 1 "D" V 7095 4171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7150 4250 50  0001 C CNN
+F 3 "~" H 7150 4250 50  0001 C CNN
+	1    7150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 4000 7150 4000
+Wire Wire Line
+	7150 4000 7150 4100
+Connection ~ 7800 4000
+Connection ~ 7150 4400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_BSLSH1
+U 1 1 00000211
+P 8500 8000
+F 0 "K_BSLSH1" H 8500 8233 60  0000 C CNN
+F 1 "KEYSW" H 8500 7900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1.5U-Hotswap" H 8500 8000 60  0001 C CNN
+F 3 "" H 8500 8000 60  0000 C CNN
+	1    8500 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_BSLSH1
+U 1 1 00000210
+P 8150 8250
+F 0 "D_BSLSH1" V 8196 8171 50  0000 R CNN
+F 1 "D" V 8095 8171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8150 8250 50  0001 C CNN
+F 3 "~" H 8150 8250 50  0001 C CNN
+	1    8150 8250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 4000 8150 4000
+Wire Wire Line
+	8150 4000 8150 4100
+Wire Wire Line
+	1150 4400 2150 4400
+Text GLabel 900  5400 0    50   Input ~ 0
+row4
+Wire Wire Line
+	900  5400 1150 5400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_PRINT1
+U 1 1 00000421
+P 1500 5000
+F 0 "K_PRINT1" H 1500 5233 60  0000 C CNN
+F 1 "KEYSW" H 1500 4900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 1500 5000 60  0001 C CNN
+F 3 "" H 1500 5000 60  0000 C CNN
+	1    1500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_PRINT1
+U 1 1 00000420
+P 1150 5250
+F 0 "D_PRINT1" V 1196 5171 50  0000 R CNN
+F 1 "D" V 1095 5171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1150 5250 50  0001 C CNN
+F 3 "~" H 1150 5250 50  0001 C CNN
+	1    1150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1200 5000 1150 5000
+Wire Wire Line
+	1150 5000 1150 5100
+Connection ~ 1800 5000
+Connection ~ 1150 5400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_CTRL2
+U 1 1 00000441
+P 2500 5000
+F 0 "K_CTRL2" H 2500 5233 60  0000 C CNN
+F 1 "KEYSW" H 2500 4900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1.25U-Hotswap" H 2500 5000 60  0001 C CNN
+F 3 "" H 2500 5000 60  0000 C CNN
+	1    2500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_CTRL2
+U 1 1 00000440
+P 2150 5250
+F 0 "D_CTRL2" V 2196 5171 50  0000 R CNN
+F 1 "D" V 2095 5171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2150 5250 50  0001 C CNN
+F 3 "~" H 2150 5250 50  0001 C CNN
+	1    2150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 5000 2150 5000
+Wire Wire Line
+	2150 5000 2150 5100
+Connection ~ 2800 5000
+Connection ~ 2150 5400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_ALT2
+U 1 1 00000461
+P 3500 5000
+F 0 "K_ALT2" H 3500 5233 60  0000 C CNN
+F 1 "KEYSW" H 3500 4900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1.25U-Hotswap" H 3500 5000 60  0001 C CNN
+F 3 "" H 3500 5000 60  0000 C CNN
+	1    3500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_ALT2
+U 1 1 00000460
+P 3150 5250
+F 0 "D_ALT2" V 3196 5171 50  0000 R CNN
+F 1 "D" V 3095 5171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3150 5250 50  0001 C CNN
+F 3 "~" H 3150 5250 50  0001 C CNN
+	1    3150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 5000 3150 5000
+Wire Wire Line
+	3150 5000 3150 5100
+Connection ~ 3800 5000
+Connection ~ 3150 5400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_N1
+U 1 1 000003B1
+P 5500 5000
+F 0 "K_N1" H 5500 5233 60  0000 C CNN
+F 1 "KEYSW" H 5500 4900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 5500 5000 60  0001 C CNN
+F 3 "" H 5500 5000 60  0000 C CNN
+	1    5500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_N1
+U 1 1 000003B0
+P 5150 5250
+F 0 "D_N1" V 5196 5171 50  0000 R CNN
+F 1 "D" V 5095 5171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5150 5250 50  0001 C CNN
+F 3 "~" H 5150 5250 50  0001 C CNN
+	1    5150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 5000 5150 5000
+Wire Wire Line
+	5150 5000 5150 5100
+Connection ~ 5800 5000
+Connection ~ 5150 5400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_COMMA1
+U 1 1 000003D1
+P 6500 5000
+F 0 "K_COMMA1" H 6500 5233 60  0000 C CNN
+F 1 "KEYSW" H 6500 4900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 6500 5000 60  0001 C CNN
+F 3 "" H 6500 5000 60  0000 C CNN
+	1    6500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_COMMA1
+U 1 1 000003D0
+P 6150 5250
+F 0 "D_COMMA1" V 6196 5171 50  0000 R CNN
+F 1 "D" V 6095 5171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6150 5250 50  0001 C CNN
+F 3 "~" H 6150 5250 50  0001 C CNN
+	1    6150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 5000 6150 5000
+Wire Wire Line
+	6150 5000 6150 5100
+Connection ~ 6800 5000
+Connection ~ 6150 5400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_FN1
+U 1 1 00000491
+P 7500 10000
+F 0 "K_FN1" H 7500 10233 60  0000 C CNN
+F 1 "KEYSW" H 7500 9900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 7500 10000 60  0001 C CNN
+F 3 "" H 7500 10000 60  0000 C CNN
+	1    7500 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_FN1
+U 1 1 00000490
+P 7150 10250
+F 0 "D_FN1" V 7196 10171 50  0000 R CNN
+F 1 "D" V 7095 10171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7150 10250 50  0001 C CNN
+F 3 "~" H 7150 10250 50  0001 C CNN
+	1    7150 10250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 5000 7150 5000
+Wire Wire Line
+	7150 5000 7150 5100
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_LEFT1
+U 1 1 000004B1
+P 8500 9000
+F 0 "K_LEFT1" H 8500 9233 60  0000 C CNN
+F 1 "KEYSW" H 8500 8900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 8500 9000 60  0001 C CNN
+F 3 "" H 8500 9000 60  0000 C CNN
+	1    8500 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_LEFT1
+U 1 1 000004B0
+P 8150 9250
+F 0 "D_LEFT1" V 8196 9171 50  0000 R CNN
+F 1 "D" V 8095 9171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8150 9250 50  0001 C CNN
+F 3 "~" H 8150 9250 50  0001 C CNN
+	1    8150 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 5000 8150 5000
+Wire Wire Line
+	8150 5000 8150 5100
+Wire Wire Line
+	1150 5400 2150 5400
+Text GLabel 900  6400 0    50   Input ~ 0
+row5
+Wire Wire Line
+	900  6400 1150 6400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_COPY1
+U 1 1 00000011
+P 1500 6000
+F 0 "K_COPY1" H 1500 6233 60  0000 C CNN
+F 1 "KEYSW" H 1500 5900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 1500 6000 60  0001 C CNN
+F 3 "" H 1500 6000 60  0000 C CNN
+	1    1500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_COPY1
+U 1 1 00000010
+P 1150 6250
+F 0 "D_COPY1" V 1196 6171 50  0000 R CNN
+F 1 "D" V 1095 6171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1150 6250 50  0001 C CNN
+F 3 "~" H 1150 6250 50  0001 C CNN
+	1    1150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1200 6000 1150 6000
+Wire Wire Line
+	1150 6000 1150 6100
+Connection ~ 1800 6000
+Connection ~ 1150 6400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_1
+U 1 1 00000031
+P 2500 6000
+F 0 "K_1" H 2500 6233 60  0000 C CNN
+F 1 "KEYSW" H 2500 5900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 2500 6000 60  0001 C CNN
+F 3 "" H 2500 6000 60  0000 C CNN
+	1    2500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_1
+U 1 1 00000030
+P 2150 6250
+F 0 "D_1" V 2196 6171 50  0000 R CNN
+F 1 "D" V 2095 6171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2150 6250 50  0001 C CNN
+F 3 "~" H 2150 6250 50  0001 C CNN
+	1    2150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 6000 2150 6000
+Wire Wire Line
+	2150 6000 2150 6100
+Connection ~ 2800 6000
+Connection ~ 2150 6400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_3
+U 1 1 00000051
+P 3500 6000
+F 0 "K_3" H 3500 6233 60  0000 C CNN
+F 1 "KEYSW" H 3500 5900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 3500 6000 60  0001 C CNN
+F 3 "" H 3500 6000 60  0000 C CNN
+	1    3500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_3
+U 1 1 00000050
+P 3150 6250
+F 0 "D_3" V 3196 6171 50  0000 R CNN
+F 1 "D" V 3095 6171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3150 6250 50  0001 C CNN
+F 3 "~" H 3150 6250 50  0001 C CNN
+	1    3150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 6000 3150 6000
+Wire Wire Line
+	3150 6000 3150 6100
+Connection ~ 3800 6000
+Connection ~ 3150 6400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_5
+U 1 1 00000071
+P 4500 6000
+F 0 "K_5" H 4500 6233 60  0000 C CNN
+F 1 "KEYSW" H 4500 5900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 4500 6000 60  0001 C CNN
+F 3 "" H 4500 6000 60  0000 C CNN
+	1    4500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_5
+U 1 1 00000070
+P 4150 6250
+F 0 "D_5" V 4196 6171 50  0000 R CNN
+F 1 "D" V 4095 6171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4150 6250 50  0001 C CNN
+F 3 "~" H 4150 6250 50  0001 C CNN
+	1    4150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 6000 4150 6000
+Wire Wire Line
+	4150 6000 4150 6100
+Connection ~ 4800 6000
+Connection ~ 4150 6400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_7
+U 1 1 00000091
+P 5500 6000
+F 0 "K_7" H 5500 6233 60  0000 C CNN
+F 1 "KEYSW" H 5500 5900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 5500 6000 60  0001 C CNN
+F 3 "" H 5500 6000 60  0000 C CNN
+	1    5500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_7
+U 1 1 00000090
+P 5150 6250
+F 0 "D_7" V 5196 6171 50  0000 R CNN
+F 1 "D" V 5095 6171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5150 6250 50  0001 C CNN
+F 3 "~" H 5150 6250 50  0001 C CNN
+	1    5150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 6000 5150 6000
+Wire Wire Line
+	5150 6000 5150 6100
+Connection ~ 5800 6000
+Connection ~ 5150 6400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_0
+U 1 1 000000C1
+P 6500 6000
+F 0 "K_0" H 6500 6233 60  0000 C CNN
+F 1 "KEYSW" H 6500 5900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 6500 6000 60  0001 C CNN
+F 3 "" H 6500 6000 60  0000 C CNN
+	1    6500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_0
+U 1 1 000000C0
+P 6150 6250
+F 0 "D_0" V 6196 6171 50  0000 R CNN
+F 1 "D" V 6095 6171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6150 6250 50  0001 C CNN
+F 3 "~" H 6150 6250 50  0001 C CNN
+	1    6150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 6000 6150 6000
+Wire Wire Line
+	6150 6000 6150 6100
+Connection ~ 6800 6000
+Connection ~ 6150 6400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_EQUAL1
+U 1 1 000000E1
+P 7500 6000
+F 0 "K_EQUAL1" H 7500 6233 60  0000 C CNN
+F 1 "KEYSW" H 7500 5900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 7500 6000 60  0001 C CNN
+F 3 "" H 7500 6000 60  0000 C CNN
+	1    7500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_EQUAL1
+U 1 1 000000E0
+P 7150 6250
+F 0 "D_EQUAL1" V 7196 6171 50  0000 R CNN
+F 1 "D" V 7095 6171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7150 6250 50  0001 C CNN
+F 3 "~" H 7150 6250 50  0001 C CNN
+	1    7150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 6000 7150 6000
+Wire Wire Line
+	7150 6000 7150 6100
+Connection ~ 7800 6000
+Connection ~ 7150 6400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_HOME1
+U 1 1 00000111
+P 8500 6000
+F 0 "K_HOME1" H 8500 6233 60  0000 C CNN
+F 1 "KEYSW" H 8500 5900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 8500 6000 60  0001 C CNN
+F 3 "" H 8500 6000 60  0000 C CNN
+	1    8500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_HOME1
+U 1 1 00000110
+P 8150 6250
+F 0 "D_HOME1" V 8196 6171 50  0000 R CNN
+F 1 "D" V 8095 6171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8150 6250 50  0001 C CNN
+F 3 "~" H 8150 6250 50  0001 C CNN
+	1    8150 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 6000 8150 6000
+Wire Wire Line
+	8150 6000 8150 6100
+Connection ~ 8800 6000
+Wire Wire Line
+	1150 6400 2150 6400
+Text GLabel 900  7400 0    50   Input ~ 0
+row6
+Wire Wire Line
+	900  7400 1150 7400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_PASTE1
+U 1 1 00000131
+P 1500 7000
+F 0 "K_PASTE1" H 1500 7233 60  0000 C CNN
+F 1 "KEYSW" H 1500 6900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 1500 7000 60  0001 C CNN
+F 3 "" H 1500 7000 60  0000 C CNN
+	1    1500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_PASTE1
+U 1 1 00000130
+P 1150 7250
+F 0 "D_PASTE1" V 1196 7171 50  0000 R CNN
+F 1 "D" V 1095 7171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1150 7250 50  0001 C CNN
+F 3 "~" H 1150 7250 50  0001 C CNN
+	1    1150 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1200 7000 1150 7000
+Wire Wire Line
+	1150 7000 1150 7100
+Connection ~ 1800 7000
+Connection ~ 1150 7400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_Q1
+U 1 1 00000151
+P 2500 7000
+F 0 "K_Q1" H 2500 7233 60  0000 C CNN
+F 1 "KEYSW" H 2500 6900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 2500 7000 60  0001 C CNN
+F 3 "" H 2500 7000 60  0000 C CNN
+	1    2500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_Q1
+U 1 1 00000150
+P 2150 7250
+F 0 "D_Q1" V 2196 7171 50  0000 R CNN
+F 1 "D" V 2095 7171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2150 7250 50  0001 C CNN
+F 3 "~" H 2150 7250 50  0001 C CNN
+	1    2150 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 7000 2150 7000
+Wire Wire Line
+	2150 7000 2150 7100
+Connection ~ 2800 7000
+Connection ~ 2150 7400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_E1
+U 1 1 00000171
+P 3500 7000
+F 0 "K_E1" H 3500 7233 60  0000 C CNN
+F 1 "KEYSW" H 3500 6900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 3500 7000 60  0001 C CNN
+F 3 "" H 3500 7000 60  0000 C CNN
+	1    3500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_E1
+U 1 1 00000170
+P 3150 7250
+F 0 "D_E1" V 3196 7171 50  0000 R CNN
+F 1 "D" V 3095 7171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3150 7250 50  0001 C CNN
+F 3 "~" H 3150 7250 50  0001 C CNN
+	1    3150 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 7000 3150 7000
+Wire Wire Line
+	3150 7000 3150 7100
+Connection ~ 3800 7000
+Connection ~ 3150 7400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_T1
+U 1 1 00000191
+P 4500 7000
+F 0 "K_T1" H 4500 7233 60  0000 C CNN
+F 1 "KEYSW" H 4500 6900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 4500 7000 60  0001 C CNN
+F 3 "" H 4500 7000 60  0000 C CNN
+	1    4500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_T1
+U 1 1 00000190
+P 4150 7250
+F 0 "D_T1" V 4196 7171 50  0000 R CNN
+F 1 "D" V 4095 7171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4150 7250 50  0001 C CNN
+F 3 "~" H 4150 7250 50  0001 C CNN
+	1    4150 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 7000 4150 7000
+Wire Wire Line
+	4150 7000 4150 7100
+Connection ~ 4800 7000
+Connection ~ 4150 7400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_I1
+U 1 1 000001C1
+P 5500 7000
+F 0 "K_I1" H 5500 7233 60  0000 C CNN
+F 1 "KEYSW" H 5500 6900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 5500 7000 60  0001 C CNN
+F 3 "" H 5500 7000 60  0000 C CNN
+	1    5500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_I1
+U 1 1 000001C0
+P 5150 7250
+F 0 "D_I1" V 5196 7171 50  0000 R CNN
+F 1 "D" V 5095 7171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5150 7250 50  0001 C CNN
+F 3 "~" H 5150 7250 50  0001 C CNN
+	1    5150 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 7000 5150 7000
+Wire Wire Line
+	5150 7000 5150 7100
+Connection ~ 5800 7000
+Connection ~ 5150 7400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_P1
+U 1 1 000001E1
+P 6500 7000
+F 0 "K_P1" H 6500 7233 60  0000 C CNN
+F 1 "KEYSW" H 6500 6900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 6500 7000 60  0001 C CNN
+F 3 "" H 6500 7000 60  0000 C CNN
+	1    6500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_P1
+U 1 1 000001E0
+P 6150 7250
+F 0 "D_P1" V 6196 7171 50  0000 R CNN
+F 1 "D" V 6095 7171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6150 7250 50  0001 C CNN
+F 3 "~" H 6150 7250 50  0001 C CNN
+	1    6150 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 7000 6150 7000
+Wire Wire Line
+	6150 7000 6150 7100
+Connection ~ 6800 7000
+Connection ~ 6150 7400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_OBRAC1
+U 1 1 00000201
+P 7500 7000
+F 0 "K_OBRAC1" H 7500 7233 60  0000 C CNN
+F 1 "KEYSW" H 7500 6900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 7500 7000 60  0001 C CNN
+F 3 "" H 7500 7000 60  0000 C CNN
+	1    7500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_OBRAC1
+U 1 1 00000200
+P 7150 7250
+F 0 "D_OBRAC1" V 7196 7171 50  0000 R CNN
+F 1 "D" V 7095 7171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7150 7250 50  0001 C CNN
+F 3 "~" H 7150 7250 50  0001 C CNN
+	1    7150 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 7000 7150 7000
+Wire Wire Line
+	7150 7000 7150 7100
+Connection ~ 7800 7000
+Connection ~ 7150 7400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_END1
+U 1 1 00000231
+P 8500 7000
+F 0 "K_END1" H 8500 7233 60  0000 C CNN
+F 1 "KEYSW" H 8500 6900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 8500 7000 60  0001 C CNN
+F 3 "" H 8500 7000 60  0000 C CNN
+	1    8500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_END1
+U 1 1 00000230
+P 8150 7250
+F 0 "D_END1" V 8196 7171 50  0000 R CNN
+F 1 "D" V 8095 7171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8150 7250 50  0001 C CNN
+F 3 "~" H 8150 7250 50  0001 C CNN
+	1    8150 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 7000 8150 7000
+Wire Wire Line
+	8150 7000 8150 7100
+Connection ~ 8800 7000
+Wire Wire Line
+	1150 7400 2150 7400
+Text GLabel 900  8400 0    50   Input ~ 0
+row7
+Wire Wire Line
+	900  8400 1150 8400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_CUT1
+U 1 1 00000251
+P 1500 8000
+F 0 "K_CUT1" H 1500 8233 60  0000 C CNN
+F 1 "KEYSW" H 1500 7900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 1500 8000 60  0001 C CNN
+F 3 "" H 1500 8000 60  0000 C CNN
+	1    1500 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_CUT1
+U 1 1 00000250
+P 1150 8250
+F 0 "D_CUT1" V 1196 8171 50  0000 R CNN
+F 1 "D" V 1095 8171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1150 8250 50  0001 C CNN
+F 3 "~" H 1150 8250 50  0001 C CNN
+	1    1150 8250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1200 8000 1150 8000
+Wire Wire Line
+	1150 8000 1150 8100
+Connection ~ 1800 8000
+Connection ~ 1150 8400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_A1
+U 1 1 00000271
+P 2500 8000
+F 0 "K_A1" H 2500 8233 60  0000 C CNN
+F 1 "KEYSW" H 2500 7900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 2500 8000 60  0001 C CNN
+F 3 "" H 2500 8000 60  0000 C CNN
+	1    2500 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_A1
+U 1 1 00000270
+P 2150 8250
+F 0 "D_A1" V 2196 8171 50  0000 R CNN
+F 1 "D" V 2095 8171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2150 8250 50  0001 C CNN
+F 3 "~" H 2150 8250 50  0001 C CNN
+	1    2150 8250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 8000 2150 8000
+Wire Wire Line
+	2150 8000 2150 8100
+Connection ~ 2800 8000
+Connection ~ 2150 8400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_D1
+U 1 1 00000291
+P 3500 8000
+F 0 "K_D1" H 3500 8233 60  0000 C CNN
+F 1 "KEYSW" H 3500 7900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 3500 8000 60  0001 C CNN
+F 3 "" H 3500 8000 60  0000 C CNN
+	1    3500 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_D1
+U 1 1 00000290
+P 3150 8250
+F 0 "D_D1" V 3196 8171 50  0000 R CNN
+F 1 "D" V 3095 8171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3150 8250 50  0001 C CNN
+F 3 "~" H 3150 8250 50  0001 C CNN
+	1    3150 8250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 8000 3150 8000
+Wire Wire Line
+	3150 8000 3150 8100
+Connection ~ 3800 8000
+Connection ~ 3150 8400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_G1
+U 1 1 000002B1
+P 4500 8000
+F 0 "K_G1" H 4500 8233 60  0000 C CNN
+F 1 "KEYSW" H 4500 7900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 4500 8000 60  0001 C CNN
+F 3 "" H 4500 8000 60  0000 C CNN
+	1    4500 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_G1
+U 1 1 000002B0
+P 4150 8250
+F 0 "D_G1" V 4196 8171 50  0000 R CNN
+F 1 "D" V 4095 8171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4150 8250 50  0001 C CNN
+F 3 "~" H 4150 8250 50  0001 C CNN
+	1    4150 8250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 8000 4150 8000
+Wire Wire Line
+	4150 8000 4150 8100
+Connection ~ 4800 8000
+Connection ~ 4150 8400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_J1
+U 1 1 000002D1
+P 5500 8000
+F 0 "K_J1" H 5500 8233 60  0000 C CNN
+F 1 "KEYSW" H 5500 7900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 5500 8000 60  0001 C CNN
+F 3 "" H 5500 8000 60  0000 C CNN
+	1    5500 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_J1
+U 1 1 000002D0
+P 5150 8250
+F 0 "D_J1" V 5196 8171 50  0000 R CNN
+F 1 "D" V 5095 8171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5150 8250 50  0001 C CNN
+F 3 "~" H 5150 8250 50  0001 C CNN
+	1    5150 8250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 8000 5150 8000
+Wire Wire Line
+	5150 8000 5150 8100
+Connection ~ 5800 8000
+Connection ~ 5150 8400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_SEMIC1
+U 1 1 00000301
+P 6500 8000
+F 0 "K_SEMIC1" H 6500 8233 60  0000 C CNN
+F 1 "KEYSW" H 6500 7900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 6500 8000 60  0001 C CNN
+F 3 "" H 6500 8000 60  0000 C CNN
+	1    6500 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_SEMIC1
+U 1 1 00000300
+P 6150 8250
+F 0 "D_SEMIC1" V 6196 8171 50  0000 R CNN
+F 1 "D" V 6095 8171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6150 8250 50  0001 C CNN
+F 3 "~" H 6150 8250 50  0001 C CNN
+	1    6150 8250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 8000 6150 8000
+Wire Wire Line
+	6150 8000 6150 8100
+Connection ~ 6800 8000
+Connection ~ 6150 8400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_ENTER1
+U 1 1 00000321
+P 7500 8000
+F 0 "K_ENTER1" H 7500 8233 60  0000 C CNN
+F 1 "KEYSW" H 7500 7900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-2.25U-Hotswap" H 7500 8000 60  0001 C CNN
+F 3 "" H 7500 8000 60  0000 C CNN
+	1    7500 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_ENTER1
+U 1 1 00000320
+P 7150 8250
+F 0 "D_ENTER1" V 7196 8171 50  0000 R CNN
+F 1 "D" V 7095 8171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7150 8250 50  0001 C CNN
+F 3 "~" H 7150 8250 50  0001 C CNN
+	1    7150 8250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 8000 7150 8000
+Wire Wire Line
+	7150 8000 7150 8100
+Connection ~ 7800 8000
+Connection ~ 7150 8400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_UP1
+U 1 1 00000411
+P 8500 4000
+F 0 "K_UP1" H 8500 4233 60  0000 C CNN
+F 1 "KEYSW" H 8500 3900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 8500 4000 60  0001 C CNN
+F 3 "" H 8500 4000 60  0000 C CNN
+	1    8500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_UP1
+U 1 1 00000410
+P 8150 4250
+F 0 "D_UP1" V 8196 4171 50  0000 R CNN
+F 1 "D" V 8095 4171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8150 4250 50  0001 C CNN
+F 3 "~" H 8150 4250 50  0001 C CNN
+	1    8150 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 8000 8150 8000
+Wire Wire Line
+	8150 8000 8150 8100
+Wire Wire Line
+	1150 8400 2150 8400
+Text GLabel 900  9400 0    50   Input ~ 0
+row8
+Wire Wire Line
+	900  9400 1150 9400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_UNDO1
+U 1 1 00000341
+P 1500 9000
+F 0 "K_UNDO1" H 1500 9233 60  0000 C CNN
+F 1 "KEYSW" H 1500 8900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 1500 9000 60  0001 C CNN
+F 3 "" H 1500 9000 60  0000 C CNN
+	1    1500 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_UNDO1
+U 1 1 00000340
+P 1150 9250
+F 0 "D_UNDO1" V 1196 9171 50  0000 R CNN
+F 1 "D" V 1095 9171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1150 9250 50  0001 C CNN
+F 3 "~" H 1150 9250 50  0001 C CNN
+	1    1150 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1200 9000 1150 9000
+Wire Wire Line
+	1150 9000 1150 9100
+Connection ~ 1800 9000
+Connection ~ 1150 9400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_Z1
+U 1 1 00000361
+P 2500 9000
+F 0 "K_Z1" H 2500 9233 60  0000 C CNN
+F 1 "KEYSW" H 2500 8900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 2500 9000 60  0001 C CNN
+F 3 "" H 2500 9000 60  0000 C CNN
+	1    2500 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_Z1
+U 1 1 00000360
+P 2150 9250
+F 0 "D_Z1" V 2196 9171 50  0000 R CNN
+F 1 "D" V 2095 9171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2150 9250 50  0001 C CNN
+F 3 "~" H 2150 9250 50  0001 C CNN
+	1    2150 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 9000 2150 9000
+Wire Wire Line
+	2150 9000 2150 9100
+Connection ~ 2800 9000
+Connection ~ 2150 9400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_C1
+U 1 1 00000381
+P 3500 9000
+F 0 "K_C1" H 3500 9233 60  0000 C CNN
+F 1 "KEYSW" H 3500 8900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 3500 9000 60  0001 C CNN
+F 3 "" H 3500 9000 60  0000 C CNN
+	1    3500 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_C1
+U 1 1 00000380
+P 3150 9250
+F 0 "D_C1" V 3196 9171 50  0000 R CNN
+F 1 "D" V 3095 9171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3150 9250 50  0001 C CNN
+F 3 "~" H 3150 9250 50  0001 C CNN
+	1    3150 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 9000 3150 9000
+Wire Wire Line
+	3150 9000 3150 9100
+Connection ~ 3150 9400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_B1
+U 1 1 000003A1
+P 4500 9000
+F 0 "K_B1" H 4500 9233 60  0000 C CNN
+F 1 "KEYSW" H 4500 8900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 4500 9000 60  0001 C CNN
+F 3 "" H 4500 9000 60  0000 C CNN
+	1    4500 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_B1
+U 1 1 000003A0
+P 4150 9250
+F 0 "D_B1" V 4196 9171 50  0000 R CNN
+F 1 "D" V 4095 9171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4150 9250 50  0001 C CNN
+F 3 "~" H 4150 9250 50  0001 C CNN
+	1    4150 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 9000 4150 9000
+Wire Wire Line
+	4150 9000 4150 9100
+Connection ~ 4800 9000
+Connection ~ 4150 9400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_K1
+U 1 1 000002E1
+P 5500 9000
+F 0 "K_K1" H 5500 9233 60  0000 C CNN
+F 1 "KEYSW" H 5500 8900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 5500 9000 60  0001 C CNN
+F 3 "" H 5500 9000 60  0000 C CNN
+	1    5500 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_K1
+U 1 1 000002E0
+P 5150 9250
+F 0 "D_K1" V 5196 9171 50  0000 R CNN
+F 1 "D" V 5095 9171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5150 9250 50  0001 C CNN
+F 3 "~" H 5150 9250 50  0001 C CNN
+	1    5150 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 9000 5150 9000
+Wire Wire Line
+	5150 9000 5150 9100
+Connection ~ 5800 9000
+Connection ~ 5150 9400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_DOT1
+U 1 1 000003E1
+P 6500 9000
+F 0 "K_DOT1" H 6500 9233 60  0000 C CNN
+F 1 "KEYSW" H 6500 8900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 6500 9000 60  0001 C CNN
+F 3 "" H 6500 9000 60  0000 C CNN
+	1    6500 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_DOT1
+U 1 1 000003E0
+P 6150 9250
+F 0 "D_DOT1" V 6196 9171 50  0000 R CNN
+F 1 "D" V 6095 9171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6150 9250 50  0001 C CNN
+F 3 "~" H 6150 9250 50  0001 C CNN
+	1    6150 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 9000 6150 9000
+Wire Wire Line
+	6150 9000 6150 9100
+Connection ~ 6800 9000
+Connection ~ 6150 9400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_SHIFT1
+U 1 1 00000401
+P 7500 9000
+F 0 "K_SHIFT1" H 7500 9233 60  0000 C CNN
+F 1 "KEYSW" H 7500 8900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-2.75U-Hotswap" H 7500 9000 60  0001 C CNN
+F 3 "" H 7500 9000 60  0000 C CNN
+	1    7500 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_SHIFT1
+U 1 1 00000400
+P 7150 9250
+F 0 "D_SHIFT1" V 7196 9171 50  0000 R CNN
+F 1 "D" V 7095 9171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7150 9250 50  0001 C CNN
+F 3 "~" H 7150 9250 50  0001 C CNN
+	1    7150 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 9000 7150 9000
+Wire Wire Line
+	7150 9000 7150 9100
+Connection ~ 7800 9000
+Connection ~ 7150 9400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_RIGHT1
+U 1 1 000004D1
+P 8500 10000
+F 0 "K_RIGHT1" H 8500 10233 60  0000 C CNN
+F 1 "KEYSW" H 8500 9900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 8500 10000 60  0001 C CNN
+F 3 "" H 8500 10000 60  0000 C CNN
+	1    8500 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_RIGHT1
+U 1 1 000004D0
+P 8150 10250
+F 0 "D_RIGHT1" V 8196 10171 50  0000 R CNN
+F 1 "D" V 8095 10171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8150 10250 50  0001 C CNN
+F 3 "~" H 8150 10250 50  0001 C CNN
+	1    8150 10250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 9000 8150 9000
+Wire Wire Line
+	8150 9000 8150 9100
+Wire Wire Line
+	1150 9400 2150 9400
+Text GLabel 900  10400 0    50   Input ~ 0
+row9
+Wire Wire Line
+	900  10400 1150 10400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_REDO1
+U 1 1 00000431
+P 1500 10000
+F 0 "K_REDO1" H 1500 10233 60  0000 C CNN
+F 1 "KEYSW" H 1500 9900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 1500 10000 60  0001 C CNN
+F 3 "" H 1500 10000 60  0000 C CNN
+	1    1500 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_REDO1
+U 1 1 00000430
+P 1150 10250
+F 0 "D_REDO1" V 1196 10171 50  0000 R CNN
+F 1 "D" V 1095 10171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1150 10250 50  0001 C CNN
+F 3 "~" H 1150 10250 50  0001 C CNN
+	1    1150 10250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1200 10000 1150 10000
+Wire Wire Line
+	1150 10000 1150 10100
+Connection ~ 1150 10400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_WIN1
+U 1 1 00000451
+P 2500 10000
+F 0 "K_WIN1" H 2500 10233 60  0000 C CNN
+F 1 "KEYSW" H 2500 9900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1.25U-Hotswap" H 2500 10000 60  0001 C CNN
+F 3 "" H 2500 10000 60  0000 C CNN
+	1    2500 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_WIN1
+U 1 1 00000450
+P 2150 10250
+F 0 "D_WIN1" V 2196 10171 50  0000 R CNN
+F 1 "D" V 2095 10171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2150 10250 50  0001 C CNN
+F 3 "~" H 2150 10250 50  0001 C CNN
+	1    2150 10250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 10000 2150 10000
+Wire Wire Line
+	2150 10000 2150 10100
+Connection ~ 2150 10400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_SPACE1
+U 1 1 00000471
+P 4500 10000
+F 0 "K_SPACE1" H 4500 10233 60  0000 C CNN
+F 1 "KEYSW" H 4500 9900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-6.25U-Hotswap-ReversedStabilizers" H 4500 10000 60  0001 C CNN
+F 3 "" H 4500 10000 60  0000 C CNN
+	1    4500 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_SPACE1
+U 1 1 00000470
+P 4150 10250
+F 0 "D_SPACE1" V 4196 10171 50  0000 R CNN
+F 1 "D" V 4095 10171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4150 10250 50  0001 C CNN
+F 3 "~" H 4150 10250 50  0001 C CNN
+	1    4150 10250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 10000 4150 10000
+Wire Wire Line
+	4150 10000 4150 10100
+Connection ~ 4150 10400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_M1
+U 1 1 000003C1
+P 5500 10000
+F 0 "K_M1" H 5500 10233 60  0000 C CNN
+F 1 "KEYSW" H 5500 9900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 5500 10000 60  0001 C CNN
+F 3 "" H 5500 10000 60  0000 C CNN
+	1    5500 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_M1
+U 1 1 000003C0
+P 5150 10250
+F 0 "D_M1" V 5196 10171 50  0000 R CNN
+F 1 "D" V 5095 10171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5150 10250 50  0001 C CNN
+F 3 "~" H 5150 10250 50  0001 C CNN
+	1    5150 10250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 10000 5150 10000
+Wire Wire Line
+	5150 10000 5150 10100
+Connection ~ 5150 10400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_ALT1
+U 1 1 00000481
+P 6500 10000
+F 0 "K_ALT1" H 6500 10233 60  0000 C CNN
+F 1 "KEYSW" H 6500 9900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1.5U-Hotswap" H 6500 10000 60  0001 C CNN
+F 3 "" H 6500 10000 60  0000 C CNN
+	1    6500 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_ALT1
+U 1 1 00000480
+P 6150 10250
+F 0 "D_ALT1" V 6196 10171 50  0000 R CNN
+F 1 "D" V 6095 10171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6150 10250 50  0001 C CNN
+F 3 "~" H 6150 10250 50  0001 C CNN
+	1    6150 10250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 10000 6150 10000
+Wire Wire Line
+	6150 10000 6150 10100
+Connection ~ 6150 10400
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_CTRL1
+U 1 1 000004A1
+P 7500 5000
+F 0 "K_CTRL1" H 7500 5233 60  0000 C CNN
+F 1 "KEYSW" H 7500 4900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1.5U-Hotswap" H 7500 5000 60  0001 C CNN
+F 3 "" H 7500 5000 60  0000 C CNN
+	1    7500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_CTRL1
+U 1 1 000004A0
+P 7150 5250
+F 0 "D_CTRL1" V 7196 5171 50  0000 R CNN
+F 1 "D" V 7095 5171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7150 5250 50  0001 C CNN
+F 3 "~" H 7150 5250 50  0001 C CNN
+	1    7150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 10000 7150 10000
+Wire Wire Line
+	7150 10000 7150 10100
+$Comp
+L osiris-rescue:KEYSW-keyboard_parts K_DOWN1
+U 1 1 000004C1
+P 8500 5000
+F 0 "K_DOWN1" H 8500 5233 60  0000 C CNN
+F 1 "KEYSW" H 8500 4900 60  0001 C CNN
+F 2 "MX_ALPS_Hybrid:MXOnly-1U-Hotswap" H 8500 5000 60  0001 C CNN
+F 3 "" H 8500 5000 60  0000 C CNN
+	1    8500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D_DOWN1
+U 1 1 000004C0
+P 8150 5250
+F 0 "D_DOWN1" V 8196 5171 50  0000 R CNN
+F 1 "D" V 8095 5171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8150 5250 50  0001 C CNN
+F 3 "~" H 8150 5250 50  0001 C CNN
+	1    8150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 10000 8150 10000
+Wire Wire Line
+	8150 10000 8150 10100
+Wire Wire Line
+	1150 10400 2150 10400
+Wire Wire Line
+	1800 10000 1800 9000
+Wire Wire Line
+	2800 10000 2800 9000
+Wire Wire Line
+	3800 9000 3800 8000
+Wire Wire Line
+	4800 10000 4800 9000
+Wire Wire Line
+	5800 10000 5800 9000
+Wire Wire Line
+	6800 10000 6800 9000
+Wire Wire Line
+	7800 10000 7800 9000
+Wire Wire Line
+	2150 1400 3150 1400
+Wire Wire Line
+	3150 1400 4150 1400
+Wire Wire Line
+	4150 1400 5150 1400
+Wire Wire Line
+	5150 1400 6150 1400
+Wire Wire Line
+	6150 1400 7150 1400
+Wire Wire Line
+	7150 1400 8150 1400
+Wire Wire Line
+	1800 2000 1800 1000
+Wire Wire Line
+	2800 2000 2800 1000
+Wire Wire Line
+	2150 2400 3150 2400
+Wire Wire Line
+	3800 2000 3800 1000
+Wire Wire Line
+	3150 2400 4150 2400
+Wire Wire Line
+	4800 2000 4800 1000
+Wire Wire Line
+	4150 2400 5150 2400
+Wire Wire Line
+	5800 2000 5800 1000
+Wire Wire Line
+	5150 2400 6150 2400
+Wire Wire Line
+	6800 2000 6800 1000
+Wire Wire Line
+	6150 2400 7150 2400
+Wire Wire Line
+	7800 2000 7800 1000
+Wire Wire Line
+	7150 2400 8150 2400
+Wire Wire Line
+	8800 2000 8800 1000
+Wire Wire Line
+	1800 3000 1800 2000
+Wire Wire Line
+	2800 3000 2800 2000
+Wire Wire Line
+	2150 3400 3150 3400
+Wire Wire Line
+	3800 3000 3800 2000
+Wire Wire Line
+	3150 3400 4150 3400
+Wire Wire Line
+	4800 3000 4800 2000
+Wire Wire Line
+	4150 3400 5150 3400
+Wire Wire Line
+	5800 3000 5800 2000
+Wire Wire Line
+	5150 3400 6150 3400
+Wire Wire Line
+	6800 3000 6800 2000
+Wire Wire Line
+	6150 3400 7150 3400
+Wire Wire Line
+	7800 3000 7800 2000
+Wire Wire Line
+	7150 3400 8150 3400
+Wire Wire Line
+	8800 3000 8800 2000
+Wire Wire Line
+	1800 4000 1800 3000
+Wire Wire Line
+	2800 4000 2800 3000
+Wire Wire Line
+	2150 4400 3150 4400
+Wire Wire Line
+	3800 4000 3800 3000
+Wire Wire Line
+	3150 4400 4150 4400
+Wire Wire Line
+	4800 4000 4800 3000
+Wire Wire Line
+	4150 4400 5150 4400
+Wire Wire Line
+	5800 4000 5800 3000
+Wire Wire Line
+	5150 4400 6150 4400
+Wire Wire Line
+	6800 4000 6800 3000
+Wire Wire Line
+	6150 4400 7150 4400
+Wire Wire Line
+	7800 4000 7800 3000
+Wire Wire Line
+	7150 4400 8150 4400
+Wire Wire Line
+	1800 5000 1800 4000
+Wire Wire Line
+	2800 5000 2800 4000
+Wire Wire Line
+	2150 5400 3150 5400
+Wire Wire Line
+	3800 5000 3800 4000
+Wire Wire Line
+	3150 5400 5150 5400
+Wire Wire Line
+	5800 5000 5800 4000
+Wire Wire Line
+	5150 5400 6150 5400
+Wire Wire Line
+	6800 5000 6800 4000
+Wire Wire Line
+	1800 6000 1800 5000
+Wire Wire Line
+	2800 6000 2800 5000
+Wire Wire Line
+	2150 6400 3150 6400
+Wire Wire Line
+	3800 6000 3800 5000
+Wire Wire Line
+	3150 6400 4150 6400
+Wire Wire Line
+	4800 6000 4800 4000
+Wire Wire Line
+	4150 6400 5150 6400
+Wire Wire Line
+	5800 6000 5800 5000
+Wire Wire Line
+	5150 6400 6150 6400
+Wire Wire Line
+	6800 6000 6800 5000
+Wire Wire Line
+	6150 6400 7150 6400
+Wire Wire Line
+	7150 6400 8150 6400
+Wire Wire Line
+	1800 7000 1800 6000
+Wire Wire Line
+	2800 7000 2800 6000
+Wire Wire Line
+	2150 7400 3150 7400
+Wire Wire Line
+	3800 7000 3800 6000
+Wire Wire Line
+	3150 7400 4150 7400
+Wire Wire Line
+	4800 7000 4800 6000
+Wire Wire Line
+	4150 7400 5150 7400
+Wire Wire Line
+	5800 7000 5800 6000
+Wire Wire Line
+	5150 7400 6150 7400
+Wire Wire Line
+	6800 7000 6800 6000
+Wire Wire Line
+	6150 7400 7150 7400
+Wire Wire Line
+	7800 7000 7800 6000
+Wire Wire Line
+	7150 7400 8150 7400
+Wire Wire Line
+	8800 7000 8800 6000
+Wire Wire Line
+	1800 8000 1800 7000
+Wire Wire Line
+	2800 8000 2800 7000
+Wire Wire Line
+	2150 8400 3150 8400
+Wire Wire Line
+	3800 8000 3800 7000
+Wire Wire Line
+	3150 8400 4150 8400
+Wire Wire Line
+	4800 8000 4800 7000
+Wire Wire Line
+	4150 8400 5150 8400
+Wire Wire Line
+	5800 8000 5800 7000
+Wire Wire Line
+	5150 8400 6150 8400
+Wire Wire Line
+	6800 8000 6800 7000
+Wire Wire Line
+	6150 8400 7150 8400
+Wire Wire Line
+	7800 8000 7800 7000
+Wire Wire Line
+	7150 8400 8150 8400
+Wire Wire Line
+	1800 9000 1800 8000
+Wire Wire Line
+	2800 9000 2800 8000
+Wire Wire Line
+	2150 9400 3150 9400
+Wire Wire Line
+	3150 9400 4150 9400
+Wire Wire Line
+	4800 9000 4800 8000
+Wire Wire Line
+	4150 9400 5150 9400
+Wire Wire Line
+	5800 9000 5800 8000
+Wire Wire Line
+	5150 9400 6150 9400
+Wire Wire Line
+	6800 9000 6800 8000
+Wire Wire Line
+	6150 9400 7150 9400
+Wire Wire Line
+	7800 9000 7800 8000
+Wire Wire Line
+	7150 9400 8150 9400
+Wire Wire Line
+	2150 10400 4150 10400
+Wire Wire Line
+	4150 10400 5150 10400
+Wire Wire Line
+	5150 10400 6150 10400
+Wire Wire Line
+	8800 7000 8800 8000
+Connection ~ 8800 8000
+Wire Wire Line
+	8800 3000 8800 4000
+Connection ~ 8800 4000
+Wire Wire Line
+	8800 8000 8800 9000
+Connection ~ 8800 9000
+Wire Wire Line
+	8800 9000 8800 10000
+Wire Wire Line
+	8800 4000 8800 5000
+Connection ~ 8800 5000
+Wire Wire Line
+	8800 5000 8800 6000
+$Comp
+L power:GND #PWR0103
+U 1 1 608A254A
+P 11305 2470
+F 0 "#PWR0103" H 11305 2220 50  0001 C CNN
+F 1 "GND" V 11310 2342 50  0000 R CNN
+F 2 "" H 11305 2470 50  0001 C CNN
+F 3 "" H 11305 2470 50  0001 C CNN
+	1    11305 2470
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 608A4A46
+P 12705 2270
+F 0 "#PWR0104" H 12705 2020 50  0001 C CNN
+F 1 "GND" V 12710 2142 50  0000 R CNN
+F 2 "" H 12705 2270 50  0001 C CNN
+F 3 "" H 12705 2270 50  0001 C CNN
+	1    12705 2270
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0105
+U 1 1 608A6436
+P 12705 2470
+F 0 "#PWR0105" H 12705 2320 50  0001 C CNN
+F 1 "VCC" V 12720 2598 50  0000 L CNN
+F 2 "" H 12705 2470 50  0001 C CNN
+F 3 "" H 12705 2470 50  0001 C CNN
+	1    12705 2470
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11305 2370 11305 2470
+Text GLabel 12705 2570 2    46   Input ~ 0
+row6
+Wire Wire Line
+	12705 2170 12885 2170
+$Comp
+L power:GND #PWR0106
+U 1 1 6045AAC0
+P 12985 1950
+F 0 "#PWR0106" H 12985 1700 50  0001 C CNN
+F 1 "GND" V 12990 1822 50  0000 R CNN
+F 2 "" H 12985 1950 50  0001 C CNN
+F 3 "" H 12985 1950 50  0001 C CNN
+	1    12985 1950
+	1    0    0    -1  
+$EndComp
+Text GLabel 11305 2170 0    46   Input ~ 0
+row9
+$Comp
+L Switch:SW_Push SW1
+U 1 1 604B51DF
+P 13515 2370
+F 0 "SW1" H 13515 2655 50  0000 C CNN
+F 1 "Reset" H 13515 2564 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 13515 2570 50  0001 C CNN
+F 3 "~" H 13515 2570 50  0001 C CNN
+	1    13515 2370
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12705 2370 13315 2370
+$Comp
+L power:GND #PWR0107
+U 1 1 604D6EF3
+P 13715 2370
+F 0 "#PWR0107" H 13715 2120 50  0001 C CNN
+F 1 "GND" V 13720 2242 50  0000 R CNN
+F 2 "" H 13715 2370 50  0001 C CNN
+F 3 "" H 13715 2370 50  0001 C CNN
+	1    13715 2370
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7800 4000 7800 5000
+Wire Wire Line
+	6150 5400 7150 5400
+Connection ~ 7800 5000
+Wire Wire Line
+	7800 5000 7800 6000
+Connection ~ 7150 5400
+Wire Wire Line
+	7150 5400 8150 5400
+Wire Wire Line
+	6150 10400 7150 10400
+Connection ~ 7150 10400
+Wire Wire Line
+	7150 10400 8150 10400
+Text GLabel 10190 2230 0    50   Input ~ 0
+LED
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 612D3726
+P 10530 2230
+F 0 "J5" H 10610 2272 50  0000 L CNN
+F 1 "LED_MCU" H 10610 2181 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork" H 10530 2230 50  0001 C CNN
+F 3 "~" H 10530 2230 50  0001 C CNN
+	1    10530 2230
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10330 2230 10280 2230
+Text Notes 12495 10370 0    118  ~ 0
+78 keys keyboard by AGP (snark13)
+Connection ~ 11305 2470
+$Comp
+L KeyboardElements:ProMicro U1
+U 1 1 608C7464
+P 12005 2720
+F 0 "U1" H 12005 3557 60  0000 C CNN
+F 1 "ProMicro" H 12005 3451 60  0000 C CNN
+F 2 "SofleLib:ArduinoProMicro" V 13055 220 60  0001 C CNN
+F 3 "" V 13055 220 60  0001 C CNN
+	1    12005 2720
+	1    0    0    -1  
+$EndComp
+Text GLabel 12705 2670 2    46   Input ~ 0
+row5
+Text GLabel 11305 2970 0    50   Input ~ 0
+col3
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 617483AF
+P 13085 1565
+F 0 "J3" V 13125 1390 50  0000 L CNN
+F 1 "-ACC" V 13055 1285 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 13085 1565 50  0001 C CNN
+F 3 "~" H 13085 1565 50  0001 C CNN
+	1    13085 1565
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 61744D77
+P 12785 1565
+F 0 "J2" V 12835 1670 50  0000 L CNN
+F 1 "+ACC" V 12760 1675 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 12785 1565 50  0001 C CNN
+F 3 "~" H 12785 1565 50  0001 C CNN
+	1    12785 1565
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 6049A46C
+P 12985 1565
+F 0 "J1" V 12795 1490 50  0000 L CNN
+F 1 "ACC" V 12865 1465 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 12985 1565 50  0001 C CNN
+F 3 "~" H 12985 1565 50  0001 C CNN
+	1    12985 1565
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12885 1765 12885 1800
+Wire Wire Line
+	12785 1765 12785 1800
+Wire Wire Line
+	12785 1800 12885 1800
+Connection ~ 12885 1800
+Wire Wire Line
+	12885 1800 12885 2170
+Wire Wire Line
+	12985 1765 12985 1800
+Wire Wire Line
+	13085 1765 13085 1800
+Wire Wire Line
+	13085 1800 12985 1800
+Connection ~ 12985 1800
+Wire Wire Line
+	12985 1800 12985 1950
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60DC0F79
+P 11115 7430
+F 0 "H1" H 11215 7476 50  0000 L CNN
+F 1 "MountingHole" H 11215 7385 50  0000 L CNN
+F 2 "SofleLib:HOLE_M3" H 11115 7430 50  0001 C CNN
+F 3 "~" H 11115 7430 50  0001 C CNN
+	1    11115 7430
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60DC2FC1
+P 11415 7430
+F 0 "H3" H 11515 7476 50  0000 L CNN
+F 1 "MountingHole" H 11515 7385 50  0000 L CNN
+F 2 "SofleLib:HOLE_M3" H 11415 7430 50  0001 C CNN
+F 3 "~" H 11415 7430 50  0001 C CNN
+	1    11415 7430
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 60DC6F10
+P 11745 7430
+F 0 "H5" H 11845 7476 50  0000 L CNN
+F 1 "MountingHole" H 11845 7385 50  0000 L CNN
+F 2 "SofleLib:HOLE_M3" H 11745 7430 50  0001 C CNN
+F 3 "~" H 11745 7430 50  0001 C CNN
+	1    11745 7430
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60DC809B
+P 11115 7710
+F 0 "H2" H 11215 7756 50  0000 L CNN
+F 1 "MountingHole" H 11215 7665 50  0000 L CNN
+F 2 "SofleLib:HOLE_M3" H 11115 7710 50  0001 C CNN
+F 3 "~" H 11115 7710 50  0001 C CNN
+	1    11115 7710
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60DC94B3
+P 11435 7710
+F 0 "H4" H 11535 7756 50  0000 L CNN
+F 1 "MountingHole" H 11535 7665 50  0000 L CNN
+F 2 "SofleLib:HOLE_M3" H 11435 7710 50  0001 C CNN
+F 3 "~" H 11435 7710 50  0001 C CNN
+	1    11435 7710
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 60DCA712
+P 11765 7695
+F 0 "H6" H 11865 7741 50  0000 L CNN
+F 1 "MountingHole" H 11865 7650 50  0000 L CNN
+F 2 "SofleLib:HOLE_M3" H 11765 7695 50  0001 C CNN
+F 3 "~" H 11765 7695 50  0001 C CNN
+	1    11765 7695
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 60DDB3C2
+P 12085 7425
+F 0 "H7" H 12185 7471 50  0000 L CNN
+F 1 "MountingHole" H 12185 7380 50  0000 L CNN
+F 2 "SofleLib:HOLE_M3" H 12085 7425 50  0001 C CNN
+F 3 "~" H 12085 7425 50  0001 C CNN
+	1    12085 7425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 60DDE2E8
+P 12095 7710
+F 0 "H8" H 12195 7756 50  0000 L CNN
+F 1 "MountingHole" H 12195 7665 50  0000 L CNN
+F 2 "SofleLib:HOLE_M3" H 12095 7710 50  0001 C CNN
+F 3 "~" H 12095 7710 50  0001 C CNN
+	1    12095 7710
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 60DE056E
+P 12490 7710
+F 0 "H10" H 12590 7756 50  0000 L CNN
+F 1 "MountingHole" H 12590 7665 50  0000 L CNN
+F 2 "SofleLib:HOLE_M3" H 12490 7710 50  0001 C CNN
+F 3 "~" H 12490 7710 50  0001 C CNN
+	1    12490 7710
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 60DE1647
+P 12480 7440
+F 0 "H9" H 12580 7486 50  0000 L CNN
+F 1 "MountingHole" H 12580 7395 50  0000 L CNN
+F 2 "SofleLib:HOLE_M3" H 12480 7440 50  0001 C CNN
+F 3 "~" H 12480 7440 50  0001 C CNN
+	1    12480 7440
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H11
+U 1 1 60ECC0C6
+P 12845 7435
+F 0 "H11" H 12945 7481 50  0000 L CNN
+F 1 "MountingHole" H 12945 7390 50  0000 L CNN
+F 2 "SofleLib:HOLE_M3" H 12845 7435 50  0001 C CNN
+F 3 "~" H 12845 7435 50  0001 C CNN
+	1    12845 7435
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H12
+U 1 1 60ECE200
+P 12845 7715
+F 0 "H12" H 12945 7761 50  0000 L CNN
+F 1 "MountingHole" H 12945 7670 50  0000 L CNN
+F 2 "SofleLib:HOLE_M3" H 12845 7715 50  0001 C CNN
+F 3 "~" H 12845 7715 50  0001 C CNN
+	1    12845 7715
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H14
+U 1 1 60EDD73E
+P 13220 7720
+F 0 "H14" H 13320 7766 50  0000 L CNN
+F 1 "MountingHole" H 13320 7675 50  0000 L CNN
+F 2 "SofleLib:HOLE_M3" H 13220 7720 50  0001 C CNN
+F 3 "~" H 13220 7720 50  0001 C CNN
+	1    13220 7720
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H13
+U 1 1 60EDE89B
+P 13230 7445
+F 0 "H13" H 13330 7491 50  0000 L CNN
+F 1 "MountingHole" H 13330 7400 50  0000 L CNN
+F 2 "SofleLib:HOLE_M3" H 13230 7445 50  0001 C CNN
+F 3 "~" H 13230 7445 50  0001 C CNN
+	1    13230 7445
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H15
+U 1 1 6100B52D
+P 13610 7440
+F 0 "H15" H 13710 7486 50  0000 L CNN
+F 1 "MountingHole" H 13710 7395 50  0000 L CNN
+F 2 "SofleLib:HOLE_M3" H 13610 7440 50  0001 C CNN
+F 3 "~" H 13610 7440 50  0001 C CNN
+	1    13610 7440
+	1    0    0    -1  
+$EndComp
+$Comp
+L osiris-rescue:SOLDER_JUMPER-keyboard_parts J6
+U 1 1 627B9119
+P 10230 2435
+F 0 "J6" V 10255 2555 60  0000 L CNN
+F 1 "LED_MCU" V 10350 2760 60  0000 C CNN
+F 2 "SofleLib:Jumper" V 10220 1640 60  0001 L CNN
+F 3 "" H 10280 2435 60  0000 C CNN
+	1    10230 2435
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10280 2335 10280 2230
+Connection ~ 10280 2230
+Wire Wire Line
+	10280 2230 10190 2230
+Text GLabel 10220 2680 0    50   Input ~ 0
+col0
+Wire Wire Line
+	10220 2680 10280 2680
+Wire Wire Line
+	10280 2680 10280 2585
+$Comp
+L osiris-rescue:SOLDER_JUMPER-keyboard_parts J4
+U 1 1 60B2EE7B
+P 13450 4325
+F 0 "J4" V 13422 4463 60  0000 L CNN
+F 1 "LED_Cut" V 13528 4463 60  0000 L CNN
+F 2 "SofleLib:Jumper" V 13528 4463 60  0001 L CNN
+F 3 "" H 13500 4325 60  0000 C CNN
+	1    13450 4325
+	0    1    1    0   
+$EndComp
+$Comp
+L LED:WS2812B D5
+U 1 1 60D8E1C2
+P 11400 4000
+F 0 "D5" H 11102 4252 50  0000 L CNN
+F 1 "WS2812B" H 11744 3955 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 11450 3700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11500 3625 50  0001 L TNN
+	1    11400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D7
+U 1 1 60D90CB7
+P 12000 4000
+F 0 "D7" H 11693 4252 50  0000 L CNN
+F 1 "WS2812B" H 12344 3955 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 12050 3700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12100 3625 50  0001 L TNN
+	1    12000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D9
+U 1 1 60D92B32
+P 12600 4000
+F 0 "D9" H 12283 4252 50  0000 L CNN
+F 1 "WS2812B" H 12944 3955 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 12650 3700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12700 3625 50  0001 L TNN
+	1    12600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D11
+U 1 1 60D95AF3
+P 13200 4000
+F 0 "D11" H 12874 4252 50  0000 L CNN
+F 1 "WS2812B" H 13544 3955 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 13250 3700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13300 3625 50  0001 L TNN
+	1    13200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D13
+U 1 1 60D97BA8
+P 13800 4000
+F 0 "D13" H 13465 4252 50  0000 L CNN
+F 1 "WS2812B" H 14144 3955 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 13850 3700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13900 3625 50  0001 L TNN
+	1    13800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D14
+U 1 1 60DD9FE6
+P 13800 4700
+F 0 "D14" H 14016 4961 50  0000 R CNN
+F 1 "WS2812B" H 14144 4655 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 13850 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13900 4325 50  0001 L TNN
+	1    13800 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B D12
+U 1 1 60DD9FF0
+P 13200 4700
+F 0 "D12" H 13425 4961 50  0000 R CNN
+F 1 "WS2812B" H 13544 4655 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 13250 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13300 4325 50  0001 L TNN
+	1    13200 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B D10
+U 1 1 60DD9FFA
+P 12600 4700
+F 0 "D10" H 12835 4961 50  0000 R CNN
+F 1 "WS2812B" H 12944 4655 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 12650 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12700 4325 50  0001 L TNN
+	1    12600 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B D8
+U 1 1 60DDA004
+P 12000 4700
+F 0 "D8" H 12244 4961 50  0000 R CNN
+F 1 "WS2812B" H 12344 4655 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 12050 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12100 4325 50  0001 L TNN
+	1    12000 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B D6
+U 1 1 60DDA00E
+P 11400 4700
+F 0 "D6" H 11654 4449 50  0000 R CNN
+F 1 "WS2812B" H 11744 4655 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 11450 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11500 4325 50  0001 L TNN
+	1    11400 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B D4
+U 1 1 60DDA018
+P 10800 4700
+F 0 "D4" H 11063 4449 50  0000 R CNN
+F 1 "WS2812B" H 11144 4655 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10850 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10900 4325 50  0001 L TNN
+	1    10800 4700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10200 4300 10200 4350
+Wire Wire Line
+	10800 4300 10800 4350
+Wire Wire Line
+	11400 4300 11400 4350
+Wire Wire Line
+	12000 4300 12000 4350
+Wire Wire Line
+	12600 4300 12600 4350
+Wire Wire Line
+	13200 4300 13200 4350
+Wire Wire Line
+	13800 4300 13800 4350
+Connection ~ 13800 4350
+Wire Wire Line
+	13800 4350 13800 4400
+Connection ~ 10200 4350
+Wire Wire Line
+	10200 4350 10200 4400
+Connection ~ 10800 4350
+Wire Wire Line
+	10800 4350 10800 4400
+Wire Wire Line
+	10800 4350 10200 4350
+Wire Wire Line
+	13800 4350 13200 4350
+Connection ~ 11400 4350
+Wire Wire Line
+	11400 4350 11400 4400
+Wire Wire Line
+	11400 4350 10800 4350
+Connection ~ 12000 4350
+Wire Wire Line
+	12000 4350 12000 4400
+Wire Wire Line
+	12000 4350 11400 4350
+Connection ~ 12600 4350
+Wire Wire Line
+	12600 4350 12600 4400
+Wire Wire Line
+	12600 4350 12000 4350
+Connection ~ 13200 4350
+Wire Wire Line
+	13200 4350 13200 4400
+Wire Wire Line
+	13200 4350 12600 4350
+Wire Wire Line
+	13500 4225 13500 4000
+Connection ~ 13500 4000
+Wire Wire Line
+	13500 4475 13500 4700
+Connection ~ 13500 4700
+Wire Wire Line
+	14100 4700 14100 4000
+Wire Wire Line
+	10200 3700 10200 3650
+Wire Wire Line
+	13800 3700 13800 3650
+Connection ~ 13800 3650
+Wire Wire Line
+	13800 3650 14100 3650
+Wire Wire Line
+	13200 3700 13200 3650
+Connection ~ 13200 3650
+Wire Wire Line
+	13200 3650 13800 3650
+Wire Wire Line
+	10200 3650 10800 3650
+Wire Wire Line
+	12600 3700 12600 3650
+Connection ~ 12600 3650
+Wire Wire Line
+	12600 3650 13200 3650
+Wire Wire Line
+	12000 3700 12000 3650
+Connection ~ 12000 3650
+Wire Wire Line
+	12000 3650 12600 3650
+Wire Wire Line
+	10800 3700 10800 3650
+Connection ~ 10800 3650
+Wire Wire Line
+	10800 3650 11400 3650
+Wire Wire Line
+	11400 3700 11400 3650
+Connection ~ 11400 3650
+Wire Wire Line
+	11400 3650 12000 3650
+Wire Wire Line
+	10200 5000 10200 5050
+Wire Wire Line
+	10200 5050 10800 5050
+Wire Wire Line
+	13800 5000 13800 5050
+Connection ~ 13800 5050
+Wire Wire Line
+	13800 5050 14100 5050
+Wire Wire Line
+	13200 5000 13200 5050
+Connection ~ 13200 5050
+Wire Wire Line
+	13200 5050 13800 5050
+Wire Wire Line
+	12600 5000 12600 5050
+Connection ~ 12600 5050
+Wire Wire Line
+	12600 5050 13200 5050
+Wire Wire Line
+	12000 5000 12000 5050
+Connection ~ 12000 5050
+Wire Wire Line
+	12000 5050 12600 5050
+Wire Wire Line
+	11400 5000 11400 5050
+Connection ~ 11400 5050
+Wire Wire Line
+	11400 5050 12000 5050
+Wire Wire Line
+	10800 5000 10800 5050
+Connection ~ 10800 5050
+Wire Wire Line
+	10800 5050 11400 5050
+$Comp
+L power:GND #PWR0101
+U 1 1 613E541E
+P 13800 4350
+F 0 "#PWR0101" H 13800 4100 50  0001 C CNN
+F 1 "GND" H 13805 4177 50  0000 C CNN
+F 2 "" H 13800 4350 50  0001 C CNN
+F 3 "" H 13800 4350 50  0001 C CNN
+	1    13800 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0102
+U 1 1 613E6DF9
+P 14100 3650
+F 0 "#PWR0102" H 14100 3500 50  0001 C CNN
+F 1 "VCC" H 14115 3823 50  0000 C CNN
+F 2 "" H 14100 3650 50  0001 C CNN
+F 3 "" H 14100 3650 50  0001 C CNN
+	1    14100 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0108
+U 1 1 613EB45C
+P 14100 5050
+F 0 "#PWR0108" H 14100 4900 50  0001 C CNN
+F 1 "VCC" H 14115 5223 50  0000 C CNN
+F 2 "" H 14100 5050 50  0001 C CNN
+F 3 "" H 14100 5050 50  0001 C CNN
+	1    14100 5050
+	0    1    1    0   
+$EndComp
+Text GLabel 9900 4000 0    50   Input ~ 0
+LED
+$Comp
+L LED:WS2812B D1
+U 1 1 60D29F5C
+P 10200 4000
+F 0 "D1" H 9921 4252 50  0000 L CNN
+F 1 "WS2812B" H 9770 3755 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10250 3700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10300 3625 50  0001 L TNN
+	1    10200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D3
+U 1 1 60D8A53D
+P 10800 4000
+F 0 "D3" H 10512 4252 50  0000 L CNN
+F 1 "WS2812B" H 11144 3955 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10850 3700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10900 3625 50  0001 L TNN
+	1    10800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D2
+U 1 1 60DDA022
+P 10200 4700
+F 0 "D2" H 10472 4449 50  0000 R CNN
+F 1 "WS2812B" H 10544 4655 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10250 4400 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10300 4325 50  0001 L TNN
+	1    10200 4700
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

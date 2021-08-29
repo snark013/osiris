@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name osiris-rescue)(type Legacy)(uri ${KIPRJMOD}/osiris-rescue.lib)(options "")(descr ""))
+)
