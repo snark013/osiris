@@ -7,7 +7,7 @@ Keyboards  photo -
 
 Bluetooth connected (nRFMicro) 78 keys keyboard
 ![Real Keyboard photo](https://github.com/snark013/osiris/blob/main/imgs/2048white.jpg)
-USB connected (Pro Micro) 68 keys keyboard
+USB connected (Pro Micro) 68 keys keyboard with RGB backlight
 ![Real Keyboard photo](https://github.com/snark013/osiris/blob/main/imgs/devtty.jpg)
 First prototype (USB connected, Pro Micro) 78 keys keyboard
 ![Real Keyboard photo](https://github.com/snark013/osiris/blob/main/imgs/osiris78-2.png)
